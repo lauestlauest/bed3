@@ -9,11 +9,11 @@ using SW4BED_3.Data;
 
 #nullable disable
 
-namespace SW4BED_3.Data.Migrations
+namespace SW4BED_3.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230416143419_RomsTable")]
-    partial class RomsTable
+    [DbContext(typeof(UserDbContext))]
+    [Migration("20230417130816_CreateIdentitySchema")]
+    partial class CreateIdentitySchema
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

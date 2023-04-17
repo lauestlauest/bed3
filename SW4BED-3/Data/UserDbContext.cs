@@ -4,11 +4,13 @@ using SW4BED_3.Models;
 
 namespace SW4BED_3.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class UserDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public UserDbContext(DbContextOptions<UserDbContext> options)
             : base(options)
         {
         }
+
+        
     }
 }
